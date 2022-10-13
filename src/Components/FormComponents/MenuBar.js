@@ -13,7 +13,7 @@ const MenuBar = () => {
                 <div className="MenuBarComponent">
 
                         <div className="MenuBarContent" onClick={() => {
-                               console.log(state.userID);
+                            //    console.log(state.userID);
                                navigate('/searchQuotes', {state:{userID: state.userID}});
                         }}>
                             Search Quotes
@@ -21,7 +21,7 @@ const MenuBar = () => {
                     
                     
                         <div className="MenuBarContent" onClick={() => {
-                              console.log(state.userID);
+                            //   console.log(state.userID);
                               navigate('/viewQuotes', {state:{userID: state.userID}});
                         }}>
                         Your Quotes
